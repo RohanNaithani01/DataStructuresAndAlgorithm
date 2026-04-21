@@ -2,11 +2,11 @@ package org.example.Arrays;
 
 public class MinimumElement {
     public static void main(String[] args) {
-        int[] arr={7,2,8,1,5};
+        int[] arr={7,2,8,5,1};
 
         int min=arr[0];
         int max=arr[0];
-        for(int i=1;i<arr.length-1;i++){
+        for(int i=1;i<arr.length;i++){
             if(min>arr[i]){
                 min=arr[i];
             }
